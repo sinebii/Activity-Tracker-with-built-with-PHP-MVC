@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Baloo 2', cursive;
+}
+
+a{
+
+    text-decoration: none;
+    color: #3498db;
+    display: block;
+}
+
+hr{
+    
+    margin: 10px;
+}
+
+.main-header{
+
+    width: 100%;
+    height: 45px;
+    background:#3498db;
+}
+
+.main-container{
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+   
+}
+
+
+.main-container img{
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: -4;
+    border-radius: 50%;
+    margin: 20px 5px;
+}
+
+
+.profile-picture{
+
+    width: 100%;
+    height: 250px;
+    
+}
+
+.user-name {
+
+width: 100%;
+}
+
+.user-name p{
+
+    font-size: 20px;
+    color: #3498db;
+   padding-left: 4%;
+}
+
+/*Conatiner for the main page*/
+.container{
+
+    background: #c8d6e5;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/*Left sidaber of the login page*/
+
+
+/*right sidaber of the login page*/
+
+.login-container{
+
+    width: 35%;
+    height: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    
+   
+}
+
+/*Modal for the login page*/
+.modal{
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+    opacity: 0.6;
+}
+
+.pageLoader{
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: white;
+    color: black;
+}
+
+.modal-page,.changePasswordModal{
+
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #3498db;
+    color: white;
+    
+}
+
+.modal-content,.changePasswordModalContent{
+
+    width: 55%;
+    height: 80%;
+    background: white;
+    margin: 5% auto;
+    border-radius: 5px;
+    position: relative;
+    color: #3498db;
+    overflow-x: hidden;
+    overflow-y: scroll;
+   
+
+}
+
+.changePasswordModalContent{
+    overflow: auto;
+
+}
+
+.changePasswordForm{
+
+    margin: 5% 20%;
+}
+
+.changePasswordHeader{
+
+    width: 100%;
+    height: 50px;
+    background: #3498db;
+}
+
+
+
+.sidebar{
+
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    float: left;
+    background:#EDEFF2;
+    color: #3498db;
+    
+}
+
+.topbar-menu{
+
+    width: 75%;
+    height: 40px;
+    border: 1px solid red;
+    margin: 0% 20%;
+    display: none;
+}
+.todo-container{
+
+    width: 75%;
+    height: 100%;
+    float: left;
+    margin-left: 20%;
+    margin-top:2%;
+    background: white;
+   
+    
+}
+
+
+
+.todo-form-container{
+
+    width: 80%;
+    height: 150px;
+    margin: 30px auto;
+    border-radius: 10px;
+
+   
+}
+
+.all-users{
+
+    width: 100%;
+    height: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+    z-index: -100;
+    
+}
+
+.user-main{
+    width: 90%;
+    height: 400px;
+    margin: 20px 60px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+   
+}
+
+
+
+.todo-list{
+
+   width: 100%;
+   height: 300px;
+   z-index: -1;
+   margin: 10px auto;
+   border-radius: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+   
+
+}
+
+
+.todo-header{
+
+    text-align: left;
+    padding-left: 7%;
+    font-size: 20px;
+    color: #3498db;
+    
+}
+
+.staff-activity-info{
+
+    font-size: 14px;
+    color: gray;
+}
+
+.password-info{
+    font-size: 14px;
+    color: red;
+}
+
+#currentime{
+
+    color: white;
+    font-size: 30px;
+    float: left;
+    padding-left: 33%;
+    line-height: 45px;
+}
+
+
+#time{
+
+    font-style: italic;
+    font-size: 12px;
+    color: #636e72;
+}
+
+.theTime{
+
+    color: gray;
+}
+
+.finished{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.finished:hover{
+    cursor: pointer;
+    
+}
+
+.updated{
+
+    text-decoration: line-through;
+    color: #10ac84;
+}
+
+.pending{
+
+    color:#d63031;
+}
+
+#todoForm p{
+
+    position: relative;
+    left: 600px;
+    top: -100px;
+    color: red;
+}
+
+#response{
+
+    width: 250px;
+    height: 20px;
+    background: #10ac84;
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    display: none;
+
+}
+
+
+.password-response{
+
+    width: 30%;
+    height: 20px;
+    background: #d63031;
+    z-index: 100;
+    position: absolute;
+    bottom: 25%;
+    right: 38%;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    display: none;
+
+}
+
+.header{
+
+    padding-left: 35%;
+    padding-top:1%;
+}

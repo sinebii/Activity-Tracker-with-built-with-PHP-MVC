@@ -1,0 +1,77 @@
+@media only screen and (max-width:600px){
+
+    
+
+    .main-container{
+
+        position: static;
+    }
+
+    li{
+
+        width: 90%;
+        left: 0%;
+        font-size: 14px;
+    }
+    
+
+    .todo-container{
+
+        width: 100%;
+        border: 1px solid red;
+        position: static;
+        
+    }
+
+    input{
+
+        width: 85%;
+        padding-top: 5px;
+    }
+
+    .login-container{
+
+        width: 80%;
+        margin: 10% auto;
+    }
+    .login-container input{
+
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .todo-form-container input[type = 'submit']{
+
+        width: 50%;
+        background: #74b9ff;
+        color: #7f8c8d;
+    
+    }
+
+    button{
+
+        width: 90%;
+    }
+
+    .company-name{
+
+        position: absolute;
+        font-size: 20px;
+        color: #0984e3;
+        left: 40%;
+        top:27%;
+        
+      }
+
+  
+
+    
+}
+
+@media only screen and  (min-width: 600px) and (max-width:768px){
+
+    .login-container{
+
+        width: 60%;
+    }
+}
